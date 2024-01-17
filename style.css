@@ -198,6 +198,7 @@ font-size: 14px;
     width: 100%;
     border-radius: 10px;
     display: block;
+    transition: transform 0.5s;
 }
 .layer{
     width: 100%;
@@ -231,4 +232,7 @@ font-size: 14px;
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+.work:hover img{
+    transform: scale(1.1);
 }
